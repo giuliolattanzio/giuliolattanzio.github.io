@@ -40,12 +40,6 @@ jobs:
           cache: pnpm
           cache-dependency-path: site/pnpm-lock.yaml
 
-      - name: Set GitHub Pages public URL
-        working-directory: site
-        run: |
-          sed -i 's#https://giuliolattanzio.pages.dev/#https://giuliolattanzio.github.io/#g' astro-paper.config.ts
-          sed -i 's#https://giuliolattanzio.pages.dev#https://giuliolattanzio.github.io#g' public/robots.txt
-
       - name: Install dependencies
         working-directory: site
         run: pnpm install --frozen-lockfile
