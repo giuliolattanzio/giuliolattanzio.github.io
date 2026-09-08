@@ -48,9 +48,12 @@ jobs:
         working-directory: site
         run: pnpm build
 
-      - name: Remove host-specific control files
+      - name: Prepare GitHub Pages artifact
         working-directory: site
-        run: rm -f dist/_headers dist/_redirects
+        run: |
+          rm -f dist/_headers dist/_redirects
+          cp dist/sitemap-0.xml dist/sitemap.xml
+          touch dist/.nojekyll
 
       - name: Configure Pages
         uses: actions/configure-pages@v5
