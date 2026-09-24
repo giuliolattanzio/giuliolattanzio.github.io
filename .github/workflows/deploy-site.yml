@@ -74,4 +74,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-# publish trigger: roaming-wifi-80211k-v-r
+# publish trigger: roaming-wifi-80211k-v-r-svg
