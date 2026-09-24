@@ -74,4 +74,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-# publish trigger: article-grid-redesign
+# publish trigger: article-grid-redesign-image-fix
