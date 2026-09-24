@@ -73,3 +73,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+# publish trigger: roaming-wifi-80211k-v-r
