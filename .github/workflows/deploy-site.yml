@@ -74,4 +74,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-# publish trigger: wifi-modulation-mcs-ekahau
+# publish trigger: voice-over-wifi-vowlan
