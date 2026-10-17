@@ -74,4 +74,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-# publish trigger: hotel-wifi-guest-security
+# publish trigger: wifi-modulation-mcs-ekahau
