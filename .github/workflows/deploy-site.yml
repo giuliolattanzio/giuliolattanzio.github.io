@@ -52,7 +52,7 @@ jobs:
         working-directory: site
         run: |
           rm -f dist/_headers dist/_redirects
-          cp dist/sitemap-0.xml dist/sitemap.xml
+          mv dist/sitemap-index.xml dist/sitemap.xml
           touch dist/.nojekyll
 
       - name: Configure Pages
@@ -74,4 +74,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-# publish trigger: voice-over-wifi-vowlan
+# publish trigger: seo-sitemap-cleanup
