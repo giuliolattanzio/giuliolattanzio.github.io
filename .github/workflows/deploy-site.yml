@@ -74,4 +74,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-# publish trigger: seo-sitemap-cleanup
+# publish trigger: advanced-wifi-troubleshooting-2026-10-26
