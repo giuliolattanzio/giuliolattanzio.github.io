@@ -52,7 +52,8 @@ jobs:
         working-directory: site
         run: |
           rm -f dist/_headers dist/_redirects
-          mv dist/sitemap-index.xml dist/sitemap.xml
+          cp dist/sitemap-0.xml dist/sitemap.xml
+          rm -f dist/sitemap-index.xml dist/sitemap-0.xml
           touch dist/.nojekyll
 
       - name: Configure Pages
@@ -74,4 +75,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-# publish trigger: wifi-capacity-planning-2026-10-28
+# publish trigger: flat-sitemap-2026-10-30
