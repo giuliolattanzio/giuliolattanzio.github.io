@@ -75,4 +75,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-# publish trigger: audiocodes-sbc-advanced-troubleshooting-2026-11-03
+# publish trigger: ekahau-2026-news-2026-11-06
